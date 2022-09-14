@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 class ValidSudokuTest {
 
 	/**
-	 * 1. Brute force approach: <br>
+	 * 1. Kind of brute force approach: <br>
 	 * a) Iterate through each row<br>
 	 * b) Iterate through each column<br>
 	 * c) Iterate through each 3x3 boxes<br>
@@ -16,8 +16,10 @@ class ValidSudokuTest {
 	 * one occurrence is greater than 1, return false immediately.
 	 * <p>
 	 * 2. There are 9 rows, 9 columns, and 9 sub-boxes.<br>
-	 * Use three maps, one for rows, one for columns, and one for sub-boxes. The key will be the number, the value will be a set.<br>
-	 * If adding a number to the set returns false, it means there is a duplicate - return false. <br>
+	 * Use three maps, one for rows, one for columns, and one for sub-boxes. The key
+	 * will be the number, the value will be a set.<br>
+	 * If adding a number to the set returns false, it means there is a duplicate -
+	 * return false. <br>
 	 * For sub-boxes, compute the sub-box index based on row and column index.<br>
 	 * Instead of maps, arrays also can be used.
 	 */
