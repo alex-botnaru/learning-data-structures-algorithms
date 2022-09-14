@@ -1,55 +1,62 @@
 package com.abotnaru.problems.neetcode;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 public class ValidSudoku {
 
+	/**
+	 * Determine if a 9x9 Sudoku board is valid. Validates only filled cells
+	 * according to the following rules:<br>
+	 * 1. Each row must contain the digits 1-9 without repetition.<br>
+	 * 2. Each column must contain the digits 1-9 without repetition.<br>
+	 * 3. Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9
+	 * without repetition.<br>
+	 * 
+	 * @param board
+	 * @return
+	 */
 	public boolean isValidSudoku(char[][] board) {
+		// Maps for row, column, and sub-boxes validation
+		// The key will be the number in the cell, the value is a Set that must contain
+		// unique position in the row, column, and sub-box
+		Map<Character, Set<Integer>> rowsMap = new HashMap<>();
+		Map<Character, Set<Integer>> colsMap = new HashMap<>();
+		Map<Character, Set<Integer>> boxesMap = new HashMap<>();
 
-		// 1. verify all rows
-		for (int i = 0; i < 9; i++) {
-			int[] occurrences = new int[9];
-			for (int j = 0; j < 9; j++) {
-				int index = board[i][j] - '1';
-				if (index >= 0) {
-					occurrences[index]++;
-					if (occurrences[index] > 1) {
-						return false;
-					}
-				}
-			}
-		}
+		for (int i = 0; i < board.length; i++) {
+			for (int j = 0; j < board[i].length; j++) {
 
-		// 2. verify all columns
-		for (int i = 0; i < 9; i++) {
-			int[] occurrences = new int[9];
-			for (int j = 0; j < 9; j++) {
-				int index = board[j][i] - '1';
-				if (index >= 0) {
-					occurrences[index]++;
-					if (occurrences[index] > 1) {
-						return false;
-					}
-				}
-			}
-		}
-
-		// 3. verify all sub-boxes
-		for (int bi = 0; bi < 3; bi++) {
-			for (int bj = 0; bj < 3; bj++) {
-
-				int[] occurrences = new int[9];
-				for (int i = bi * 3; i < bi * 3 + 3; i++) {
-					for (int j = bj * 3; j < bj * 3 + 3; j++) {
-						int index = board[i][j] - '1';
-						if (index >= 0) {
-							occurrences[index]++;
-							if (occurrences[index] > 1) {
-								return false;
-							}
-						}
-					}
+				if (board[i][j] == '.') {
+					// if cell is no filled, skip it
+					continue;
 				}
 
+				// Initialize the key value if necessary
+				char key = board[i][j];
+				rowsMap.computeIfAbsent(key, k -> new HashSet<>());
+				colsMap.computeIfAbsent(key, k -> new HashSet<>());
+				boxesMap.computeIfAbsent(key, k -> new HashSet<>());
+
+				if (!rowsMap.get(key).add(i)) {
+					// The number is already contained at the row i
+					return false;
+				}
+
+				if (!colsMap.get(key).add(j)) {
+					// The number is already contained at the column j
+					return false;
+				}
+
+				int boxIndex = (i / 3 * 3) + (j / 3); // compute the index of the box
+				if (!boxesMap.get(key).add(boxIndex)) {
+					// The number is already contained in the box at boxIndex
+					return false;
+				}
 			}
+
 		}
 
 		return true;
