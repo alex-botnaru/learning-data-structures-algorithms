@@ -11,4 +11,5 @@
 5. Top K Frequent Elements: https://leetcode.com/problems/top-k-frequent-elements/
 6. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
 7. Valid Sudoku: https://leetcode.com/problems/valid-sudoku/
-8. 
+8. Encode and Decode String: https://leetcode.com/problems/encode-and-decode-strings/ **Premium Content**
+9. 
