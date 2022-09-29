@@ -12,4 +12,7 @@
 6. Product of Array Except Self: https://leetcode.com/problems/product-of-array-except-self/
 7. Valid Sudoku: https://leetcode.com/problems/valid-sudoku/
 8. Encode and Decode String: https://leetcode.com/problems/encode-and-decode-strings/ **Premium Content**
-9. 
+9. Longest Consecutive Sequence: https://leetcode.com/problems/longest-consecutive-sequence/
+
+## Two Pointers
+1. 
