@@ -43,12 +43,13 @@ public class AHashTableSeparateChanning<K, V> {
 	 * @param key
 	 * @param value
 	 */
-	public void insert(K key, V value) {
+	public V insert(K key, V value) {
 		if (key == null || value == null) {
 			// Do not allow null key or value
 			throw new IllegalArgumentException("Key or value cannot be null.");
 		}
-		resizeTable();
+		checkAndResizeTable();
+		V oldValue = null;
 		int index = getIndex(key);
 		if (table[index] == null) {
 			// Creates the internal list for the index if doesn't exist
@@ -62,6 +63,8 @@ public class AHashTableSeparateChanning<K, V> {
 			if (entry.getKey().equals(key)) {
 				// Key already exist
 				keyEntryExist = true;
+				// Store old value
+				oldValue = entry.getValue();
 				// override the entry with the latest value
 				entry.setValue(value);
 			}
@@ -71,12 +74,13 @@ public class AHashTableSeparateChanning<K, V> {
 			table[index].add(hashEntry);
 			size++;
 		}
+		return oldValue;
 	}
 
 	/**
 	 * Internal method to resize (increase) the internal table
 	 */
-	private void resizeTable() {
+	private void checkAndResizeTable() {
 		if (size >= threshold) {
 			capacity *= 2; // double the table capacity
 			threshold = (int) (capacity * loadFactor); // compute the new threshold
@@ -120,16 +124,17 @@ public class AHashTableSeparateChanning<K, V> {
 	 * @return
 	 */
 	public V get(K key) {
+		if (key == null) {
+			throw new IllegalArgumentException("Key cannot be null");
+		}
 		V result = null;
-		if (key != null) {
-			int index = getIndex(key);
-			if (table[index] != null) {
-				for (int i = 0; i < table[index].size(); i++) {
-					AHashEntry<K, V> entry = table[index].get(i);
-					if (entry.getKey().equals(key)) {
-						result = entry.getValue();
-						break;
-					}
+		int index = getIndex(key);
+		if (table[index] != null) {
+			for (int i = 0; i < table[index].size(); i++) {
+				AHashEntry<K, V> entry = table[index].get(i);
+				if (entry.getKey().equals(key)) {
+					result = entry.getValue();
+					break;
 				}
 			}
 		}
@@ -144,22 +149,25 @@ public class AHashTableSeparateChanning<K, V> {
 	 * @return
 	 */
 	public V remove(K key) {
+		if (key == null) {
+			throw new IllegalArgumentException("Key cannot be null");
+		}
 		V result = null;
-		if (key != null) {
-			int index = getIndex(key);
-			if (table[index] != null) {
-				for (int i = 0; i < table[index].size(); i++) {
-					AHashEntry<K, V> entry = table[index].get(i);
-					if (entry.getKey().equals(key)) {
-						// Found the key, store the value, then remove the entry and decrement the size.
-						result = entry.getValue();
-						table[index].remove(i);
-						size--;
-						break;
-					}
+		int index = getIndex(key);
+
+		if (table[index] != null) {
+			for (int i = 0; i < table[index].size(); i++) {
+				AHashEntry<K, V> entry = table[index].get(i);
+				if (entry.getKey().equals(key)) {
+					// Found the key, store the value, then remove the entry and decrement the size.
+					result = entry.getValue();
+					table[index].remove(i);
+					size--;
+					break;
 				}
 			}
 		}
+
 		return result;
 	}
 }
