@@ -92,7 +92,9 @@ class AHashTableSeparateChanningTest {
 		assertEquals("Five", hashTable.remove(5));
 		assertEquals("Seven", hashTable.remove(7));
 		assertEquals("Nine", hashTable.remove(9));
+		assertNull(hashTable.remove(9));
 		assertNull(hashTable.remove(10));
+		assertEquals(5, hashTable.size());
 		assertNull(hashTable.remove(null));
 	}
 }

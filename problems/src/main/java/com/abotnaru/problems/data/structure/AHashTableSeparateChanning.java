@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * An example ofHash Table implementation using the Separate Chaining collision
+ * An example of Hash Table implementation using the Separate Chaining collision
  * resolution method.
  *
  * @param <K> Key type
@@ -19,7 +19,7 @@ public class AHashTableSeparateChanning<K, V> {
 	private double loadFactor = DEFAULT_LOAD_FACTOR;
 	private int threshold;
 	private int size;
-	List<AHashEntry<K, V>>[] table;
+	private List<AHashEntry<K, V>>[] table;
 
 	@SuppressWarnings("unchecked")
 	public AHashTableSeparateChanning() {
