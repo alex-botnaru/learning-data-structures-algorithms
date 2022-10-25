@@ -12,7 +12,7 @@ class BestTimeBuySellStockTest {
 
 	@ParameterizedTest
 	@MethodSource("provideParameters")
-	void testFirstArray(int[] prices, int expectedMaxProfit) {
+	void testMaxProfits(int[] prices, int expectedMaxProfit) {
 		int actualMaxProfit = new BestTimeBuySellStock().maxProfit(prices);
 		assertEquals(expectedMaxProfit, actualMaxProfit);
 	}
