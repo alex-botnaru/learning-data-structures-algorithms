@@ -12,7 +12,7 @@ class MinimumWindowSubstringTest {
 	
 	@ParameterizedTest
 	@MethodSource("provideParameters")
-	void testCheckInclusion(String s, String t, String expected) {
+	void testMinWindow(String s, String t, String expected) {
 		assertEquals(expected, new MinimumWindowSubstring().minWindow(s, t));
 	}
 
