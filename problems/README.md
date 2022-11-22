@@ -30,3 +30,6 @@
 4. [Permutation in String](https://leetcode.com/problems/permutation-in-string/)
 5. [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)
 6. [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
+
+## Stack
+1. [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
