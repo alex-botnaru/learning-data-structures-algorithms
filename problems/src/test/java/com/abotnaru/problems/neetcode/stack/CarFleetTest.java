@@ -12,7 +12,7 @@ class CarFleetTest {
 	
 	@ParameterizedTest
 	@MethodSource("provideParameters")
-	void testDailyTemperatures(int target, int[] position, int[] speed, int expected) {
+	void testCarFleet(int target, int[] position, int[] speed, int expected) {
 		assertEquals(expected, new CarFleet().carFleet(target, position, speed));
 	}
 
