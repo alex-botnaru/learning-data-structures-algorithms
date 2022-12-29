@@ -41,4 +41,4 @@
 7. [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)
 
 ## Binary Search
-1. 
+1. [Binary Search](https://leetcode.com/problems/binary-search/)
