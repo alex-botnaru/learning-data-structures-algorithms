@@ -17,6 +17,7 @@ public class BinarySearch {
 		return binarySearchIterative(nums, target);
 	}
 
+	@SuppressWarnings("unused")
 	private int binarySearchRecursive(int[] nums, int target, int start, int end) {
 		int result = -1;
 
