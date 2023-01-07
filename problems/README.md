@@ -45,3 +45,4 @@
 2. [Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
 3. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 4. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+5. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
