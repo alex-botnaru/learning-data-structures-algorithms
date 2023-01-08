@@ -46,3 +46,4 @@
 3. [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 4. [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 5. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
+6. [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
