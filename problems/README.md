@@ -48,3 +48,6 @@
 5. [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 6. [Time Based Key-Value Store](https://leetcode.com/problems/time-based-key-value-store/)
 7. [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+
+## Linked List
+1. [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
