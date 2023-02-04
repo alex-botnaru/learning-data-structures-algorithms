@@ -58,3 +58,4 @@
 6. [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)
 7. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 8. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
+9. [LRU Cache](https://leetcode.com/problems/lru-cache/)
