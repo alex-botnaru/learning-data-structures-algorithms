@@ -60,4 +60,5 @@
 8. [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)
 9. [LRU Cache](https://leetcode.com/problems/lru-cache/)
 10. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
-11. 
+11. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
+
