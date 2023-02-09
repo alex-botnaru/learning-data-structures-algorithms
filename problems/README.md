@@ -62,3 +62,5 @@
 10. [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
 11. [Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)
 
+## Trees
+1. [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
