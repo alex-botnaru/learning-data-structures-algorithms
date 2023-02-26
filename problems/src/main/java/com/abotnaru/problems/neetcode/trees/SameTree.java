@@ -9,7 +9,7 @@ public class SameTree {
 	 * @param node2
 	 * @return
 	 */
-	boolean isSameTree(TreeNode node1, TreeNode node2) {
+	public boolean isSameTree(TreeNode node1, TreeNode node2) {
 
 		if (node1 == null && node2 == null) {
 			// If both nodes are null, consider they are the same
