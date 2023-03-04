@@ -69,3 +69,4 @@
 4. [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
 5. [Same Tree)[https://leetcode.com/problems/same-tree/)
 6. [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+7. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
