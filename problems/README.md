@@ -72,3 +72,4 @@
 7. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 8. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 9. [Binary TreeRight Side View](https://leetcode.com/problems/binary-tree-right-side-view/)
+10. [Count Good Nodes in a Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
