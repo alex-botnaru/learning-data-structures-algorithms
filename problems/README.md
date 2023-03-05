@@ -75,3 +75,4 @@
 10. [Count Good Nodes in a Binary Tree](https://leetcode.com/problems/count-good-nodes-in-binary-tree/)
 11. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 12. [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+13. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
