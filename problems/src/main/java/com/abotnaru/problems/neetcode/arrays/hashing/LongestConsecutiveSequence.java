@@ -54,10 +54,10 @@ public class LongestConsecutiveSequence {
 	 * Overall complexity of this is O(N logN)
 	 * <p>
 	 * 2. My O(N) approach, has two loops.<br>
-	 * a. First loop adds all elements to a map, where key is the number, and the
+	 * a. First loop adds all elements to a children, where key is the number, and the
 	 * value is one and represents the sequence length.<br>
 	 * b. For each number in the array, check recursively if the number - 1 exist in
-	 * the map<br>
+	 * the children<br>
 	 * If exists, add its sequence value to the sequence of the current number, set
 	 * sequence length to null for the next number to not check it again.
 	 * 
@@ -78,7 +78,7 @@ public class LongestConsecutiveSequence {
 	}
 
 	/**
-	 * Recursively iterates through the map to find the sequence
+	 * Recursively iterates through the children to find the sequence
 	 * 
 	 * @param key
 	 * @param numbersMap

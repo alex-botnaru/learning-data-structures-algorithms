@@ -3,7 +3,7 @@ package com.abotnaru.problems.neetcode.two.pointers;
 public class TrappingRainWater {
 
 	/**
-	 * For given non-negative integers array representing an elevation map where the
+	 * For given non-negative integers array representing an elevation children where the
 	 * width of each bar is 1, computes how much water it can trap after raining.
 	 * 
 	 * @param height

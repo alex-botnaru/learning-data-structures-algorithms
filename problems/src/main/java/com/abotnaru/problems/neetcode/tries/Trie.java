@@ -6,7 +6,7 @@ package com.abotnaru.problems.neetcode.tries;
  */
 public class Trie {
 
-	TrieNode root = new TrieNode();
+	private TrieNode root = new TrieNode();
 
 	/**
 	 * Inserts a word in the trie
@@ -17,8 +17,8 @@ public class Trie {
 		TrieNode current = root;
 
 		for (char c : word.toLowerCase().toCharArray()) {
-			current.map.computeIfAbsent(c, k -> new TrieNode());
-			current = current.map.get(c);
+			current.children.computeIfAbsent(c, k -> new TrieNode());
+			current = current.children.get(c);
 		}
 
 		current.isWordEnd = true;
@@ -34,7 +34,7 @@ public class Trie {
 	public boolean search(String word) {
 		TrieNode current = root;
 		for (char c : word.toLowerCase().toCharArray()) {
-			current = current.map.get(c);
+			current = current.children.get(c);
 			if (current == null) {
 				break;
 			}
@@ -52,7 +52,7 @@ public class Trie {
 	public boolean startsWith(String prefix) {
 		TrieNode current = root;
 		for (char c : prefix.toLowerCase().toCharArray()) {
-			current = current.map.get(c);
+			current = current.children.get(c);
 			if (current == null) {
 				break;
 			}

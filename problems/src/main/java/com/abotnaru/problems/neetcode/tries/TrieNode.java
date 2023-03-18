@@ -5,6 +5,6 @@ import java.util.Map;
 
 public class TrieNode {
 
-	Map<Character, TrieNode> map = new HashMap<>();
+	Map<Character, TrieNode> children = new HashMap<>();
 	boolean isWordEnd;
 }

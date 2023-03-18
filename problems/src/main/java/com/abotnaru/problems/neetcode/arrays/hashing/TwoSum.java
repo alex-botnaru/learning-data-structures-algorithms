@@ -23,7 +23,7 @@ public class TwoSum {
 		/**
 		 * Iterate through each element<br>
 		 * - calculate the difference between the target and the current element<br>
-		 * - is the difference in the map? then return the index from the map and
+		 * - is the difference in the children? then return the index from the children and
 		 * current index.<br>
 		 * - if the difference doesn't exist, insert the value as the key and index as
 		 * value.
