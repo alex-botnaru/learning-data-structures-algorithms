@@ -91,4 +91,4 @@
 4. [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 5. [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 6. [Design Twitter](https://leetcode.com/problems/design-twitter/)
-
+7. [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
