@@ -96,4 +96,5 @@
 ## Backtracking
 1. [Subsets](https://leetcode.com/problems/subsets/)
 2. [Combination Sum](https://leetcode.com/problems/combination-sum/)
+3. [Permutations](https://leetcode.com/problems/permutations/)
 
