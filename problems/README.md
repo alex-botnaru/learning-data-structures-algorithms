@@ -102,3 +102,4 @@
 6. [Word Search](https://leetcode.com/problems/word-search/)
 7. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 8. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
+9. [N-Queens](https://leetcode.com/problems/n-queens/)
