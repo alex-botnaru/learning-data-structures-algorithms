@@ -99,3 +99,4 @@
 3. [Permutations](https://leetcode.com/problems/permutations/)
 4. [Subsets II](https://leetcode.com/problems/subsets-ii/)
 5. [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)
+6. [Word Search](https://leetcode.com/problems/word-search/)
