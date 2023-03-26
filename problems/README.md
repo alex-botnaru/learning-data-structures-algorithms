@@ -103,3 +103,6 @@
 7. [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/)
 8. [Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 9. [N-Queens](https://leetcode.com/problems/n-queens/)
+
+## Graphs
+1. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
