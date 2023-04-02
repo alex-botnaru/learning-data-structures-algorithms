@@ -107,3 +107,4 @@
 ## Graphs
 1. [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 2. [Clone Graph](https://leetcode.com/problems/clone-graph/)
+3. [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)
