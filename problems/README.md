@@ -115,3 +115,4 @@
 8. [Course Schedule](https://leetcode.com/problems/course-schedule/)
 9. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
 10. [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
+11. [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) Premium link
