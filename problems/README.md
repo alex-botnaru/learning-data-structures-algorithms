@@ -118,3 +118,6 @@
 11. [Number of Connected Components in an Undirected Graph](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) Premium link
 12. [Graph Valid Tree](https://www.lintcode.com/problem/178/)
 13. [Word Ladder](https://leetcode.com/problems/word-ladder/)
+
+## Advanced Graphs
+1. [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
