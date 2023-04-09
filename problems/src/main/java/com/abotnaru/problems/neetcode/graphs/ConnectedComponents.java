@@ -45,7 +45,7 @@ public class ConnectedComponents {
 
 	/**
 	 * Helper function to combine two nodes under the same parent, returns true if
-	 * nodes were combined, or false if they previously were combined.
+	 * nodes were combined, false otherwise.
 	 * 
 	 * @param parents
 	 * @param x
