@@ -114,3 +114,4 @@
 7. [Walls and Gates](https://www.lintcode.com/problem/663/)
 8. [Course Schedule](https://leetcode.com/problems/course-schedule/)
 9. [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/)
+10. [Redundant Connection](https://leetcode.com/problems/redundant-connection/)
