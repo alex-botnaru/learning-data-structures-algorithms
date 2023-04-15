@@ -10,7 +10,7 @@ public class NetworkDelayTime {
 
 	/**
 	 * Returns the minimum time necessary to reach all nodes from node k, returns -1
-	 * if it is not possible. This implementation uses Djikstra's algorithm.
+	 * if it is not possible. This implementation uses Dijkstra's algorithm.
 	 * 
 	 * @param times
 	 * @param n
