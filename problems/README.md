@@ -122,3 +122,4 @@
 ## Advanced Graphs
 1. [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/)
 2. [Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/)
+3. [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
