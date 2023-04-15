@@ -125,3 +125,5 @@
 3. [Network Delay Time](https://leetcode.com/problems/network-delay-time/)
 4. [Swim in Rising Water](https://leetcode.com/problems/swim-in-rising-water/)
 5. [Alien Dictionary](https://www.lintcode.com/problem/892/)
+6. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
+
