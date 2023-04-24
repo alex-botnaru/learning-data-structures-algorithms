@@ -127,3 +127,5 @@
 5. [Alien Dictionary](https://www.lintcode.com/problem/892/)
 6. [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/)
 
+## 1-D Dynamic Programming
+1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
