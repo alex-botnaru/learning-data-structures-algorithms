@@ -129,3 +129,4 @@
 
 ## 1-D Dynamic Programming
 1. [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+2. [Min Cost Climbing Stairs](https://leetcode.com/problems/min-cost-climbing-stairs/)
