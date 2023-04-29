@@ -134,3 +134,4 @@
 4. [House Robber II](https://leetcode.com/problems/house-robber-ii/)
 5. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 6. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+7. [Decode Ways](https://leetcode.com/problems/decode-ways/)
