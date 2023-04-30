@@ -137,3 +137,4 @@
 7. [Decode Ways](https://leetcode.com/problems/decode-ways/)
 8. [Coin Change](https://leetcode.com/problems/coin-change/)
 9. [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
+10. [Word Break](https://leetcode.com/problems/word-break/)
