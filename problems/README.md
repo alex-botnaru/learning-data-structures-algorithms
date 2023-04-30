@@ -135,3 +135,4 @@
 5. [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)
 6. [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 7. [Decode Ways](https://leetcode.com/problems/decode-ways/)
+8. [Coin Change](https://leetcode.com/problems/coin-change/)
