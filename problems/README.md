@@ -140,3 +140,6 @@
 10. [Word Break](https://leetcode.com/problems/word-break/)
 11. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
 12. [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+
+## 2-D Dynamic Programming
+1. [Unique Paths](https://leetcode.com/problems/unique-paths/)
