@@ -3,6 +3,7 @@ package com.abotnaru.problems.neetcode.dynamic.programming.d2;
 public class LongestCommonSubsequence {
 
 	/**
+	 * Returns the length of the longest common subsequence between two texts
 	 * 
 	 * @param text1
 	 * @param text2
