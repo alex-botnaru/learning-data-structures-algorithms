@@ -149,3 +149,4 @@
 5. [Target Sum](https://leetcode.com/problems/target-sum/)
 6. [Interleaving String](https://leetcode.com/problems/interleaving-string/)
 7. [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/)
+8. [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/)
