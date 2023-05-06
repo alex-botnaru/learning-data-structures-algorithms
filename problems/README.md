@@ -154,3 +154,5 @@
 10. [Burst Balloons](https://leetcode.com/problems/burst-balloons/)
 11. [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/)
 
+## Greedy
+1. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
