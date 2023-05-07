@@ -161,3 +161,4 @@
 4. [Gas Station](https://leetcode.com/problems/gas-station/)
 5. [Hands of Straights](https://leetcode.com/problems/hand-of-straights/)
 6. [Merge Triplets to Form Target Triplet](https://leetcode.com/problems/merge-triplets-to-form-target-triplet/)
+7. [Partition Labels](https://leetcode.com/problems/partition-labels/)
