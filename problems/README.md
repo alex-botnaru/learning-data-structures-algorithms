@@ -159,3 +159,4 @@
 2. [Jump Game](https://leetcode.com/problems/jump-game/)
 3. [Jump Game II](https://leetcode.com/problems/jump-game-ii/)
 4. [Gas Station](https://leetcode.com/problems/gas-station/)
+5. [Hands of Straights](https://leetcode.com/problems/hand-of-straights/)
