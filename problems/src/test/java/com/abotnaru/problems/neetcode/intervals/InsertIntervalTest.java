@@ -12,7 +12,7 @@ class InsertIntervalTest {
 
 	@ParameterizedTest
 	@MethodSource("provideParameters")
-	void testCanJump(int[][] intervals, int[] newInterval, int[][] expected) {
+	void testInsertIntervals(int[][] intervals, int[] newInterval, int[][] expected) {
 		assertArrayEquals(expected, new InsertInterval().insert(intervals, newInterval));
 	}
 

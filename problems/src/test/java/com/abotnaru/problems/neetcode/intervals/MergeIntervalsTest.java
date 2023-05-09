@@ -12,7 +12,7 @@ class MergeIntervalsTest {
 
 	@ParameterizedTest
 	@MethodSource("provideParameters")
-	void testCanJump(int[][] intervals, int[][] expected) {
+	void testMergeIntervals(int[][] intervals, int[][] expected) {
 		assertArrayEquals(expected, new MergeIntervals().merge(intervals));
 	}
 

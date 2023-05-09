@@ -6,6 +6,12 @@ import java.util.List;
 
 public class MergeIntervals {
 
+	/**
+	 * Returns a new array of intervals with overlapping intervals merged.
+	 * 
+	 * @param intervals
+	 * @return
+	 */
 	public int[][] merge(int[][] intervals) {
 		List<int[]> result = new ArrayList<>();
 
