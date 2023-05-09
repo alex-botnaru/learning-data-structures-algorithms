@@ -166,3 +166,4 @@
 
 ## Intervals
 1. [Insert Interval](https://leetcode.com/problems/insert-interval/)
+2. [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
