@@ -164,3 +164,5 @@
 7. [Partition Labels](https://leetcode.com/problems/partition-labels/)
 8. [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/)
 
+## Intervals
+1. [Insert Interval](https://leetcode.com/problems/insert-interval/)
