@@ -168,3 +168,4 @@
 1. [Insert Interval](https://leetcode.com/problems/insert-interval/)
 2. [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 3. [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+4. [Meeting Rooms](https://www.lintcode.com/problem/920/)
