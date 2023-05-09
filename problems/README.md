@@ -169,3 +169,4 @@
 2. [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 3. [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 4. [Meeting Rooms](https://www.lintcode.com/problem/920/)
+5. [Meeting Rooms II](https://www.lintcode.com/problem/919/)
