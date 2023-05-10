@@ -38,14 +38,14 @@ public class MatrixZeroes {
 			}
 		}
 
-		// set first row to 0 if needed
+		// set first column to 0 if needed
 		if (matrix[0][0] == 0) {
 			for (int row = 0; row < matrix.length; row++) {
 				matrix[row][0] = 0;
 			}
 		}
 
-		// Set first column to 0 if needed
+		// Set first row to 0 if needed
 		if (rowZero) {
 			for (int col = 0; col < matrix[0].length; col++) {
 				matrix[0][col] = 0;
