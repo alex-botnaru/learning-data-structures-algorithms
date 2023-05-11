@@ -178,3 +178,4 @@
 3. [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)
 4. [Happy Number](https://leetcode.com/problems/happy-number/)
 5. [Plus One](https://leetcode.com/problems/plus-one/)
+6. [Pow(x,n)](https://leetcode.com/problems/powx-n/)
