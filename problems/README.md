@@ -180,3 +180,5 @@
 5. [Plus One](https://leetcode.com/problems/plus-one/)
 6. [Pow(x,n)](https://leetcode.com/problems/powx-n/)
 7. [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
+8. [Detect Squares](https://leetcode.com/problems/detect-squares/)
+
