@@ -182,3 +182,5 @@
 7. [Multiply Strings](https://leetcode.com/problems/multiply-strings/)
 8. [Detect Squares](https://leetcode.com/problems/detect-squares/)
 
+## Bit Manipulation
+1. [Single Number](https://leetcode.com/problems/single-number/)
