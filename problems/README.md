@@ -187,3 +187,4 @@
 2. [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)
 3. [Counting Bits](https://leetcode.com/problems/counting-bits/)
 4. [Reverse Bits](https://leetcode.com/problems/reverse-bits/)
+5. [Missing Number](https://leetcode.com/problems/missing-number/)
