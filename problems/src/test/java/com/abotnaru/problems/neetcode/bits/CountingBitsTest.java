@@ -12,7 +12,7 @@ class CountingBitsTest {
 
 	@ParameterizedTest
 	@MethodSource("provideParameters")
-	void testHammingWeight(int n, int[] expected) {
+	void testCountBits(int n, int[] expected) {
 		assertArrayEquals(expected, new CountingBits().countBits(n));
 	}
 
