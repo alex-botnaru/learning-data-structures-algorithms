@@ -16,7 +16,7 @@ public class RotateImage {
 		// Iterate from outer level to inner ones
 		while (left < right) {
 
-			// Iterate through all items on the same leve.
+			// Iterate through all items on the same level.
 			for (int i = 0; i < right - left; i++) {
 				int top = left;
 				int bottom = right;
